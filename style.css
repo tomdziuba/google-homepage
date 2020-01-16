@@ -1,12 +1,23 @@
-ul { 
+h1 { 
     padding:0 
     margin: 0;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    color: black;
+    margin: 7px 10px 10px 10px
 }
 
 body {
@@ -69,16 +80,31 @@ button {
     align-items: center;
 }
 
-.right {
-    float: right;
-    text-align: right;
-}
 
-.left {
-    float: left;
-    text-align: left;
-}
 
 li {
     display: inline;
+}
+
+
+#tl {
+    position: absolute;
+    left: 0;
+  
+}
+#tr{
+    position: absolute;
+    right: 0;
+
+}
+#bl{
+    position: absolute;
+    left: 0;
+    
+}
+#br{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    padding-right: 20px;
 }
